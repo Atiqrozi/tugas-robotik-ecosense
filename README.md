@@ -35,4 +35,4 @@
 
 - Uji coba program computer vision yang telah dibuat dengan robot BNU V2.
 
-![Dokumentasi uji coba](tugas robotika.jpg)
+![Dokumentasi uji coba](tugas-robotika.jpg)
