@@ -24,3 +24,15 @@
 - Melakukan training model baru dengan dataset training.
 - Melakukan testing model baru dengan dataset testing.
 - Mendapatkan Hasil yang lebih baik dengan mendapatkan hasil accuracy pada tahap testing 0.83
+
+# Pada Minggu 3 :
+
+- Terus meningkatkan model klasifikasi sampah dengan akurasi 0.94
+- Membuat model computer vision yang menggabungkan model sebelumnya dengan model YOLO v8
+- Membuat agar computer vision dapat terhubung dengan serial
+
+# Pada Minggu 4 :
+
+- Uji coba program computer vision yang telah dibuat dengan robot BNU V2.
+
+![gambar dokumentasi](tugas robotika.jpg)

@@ -91,17 +91,19 @@ while True:
         if label == "Organik":
             print("Organik Terdeteksi: Kirim b=2 -> 1 -> 0")
             arduino.write(b"2")
-            time.sleep(1)  # belok kiri
-            arduino.write(b"1")
-            time.sleep(2)  # maju beberapa detik
-            arduino.write(b"0")
-        elif label == "Anorganik":
-            print("Anorganik Terdeteksi: Kirim b=3 -> 1 -> 0")
-            arduino.write(b"3")
             time.sleep(1)  # belok kanan
             arduino.write(b"1")
             time.sleep(2)  # maju beberapa detik
             arduino.write(b"0")
+            time.sleep(3)
+        elif label == "Anorganik":
+            print("Anorganik Terdeteksi: Kirim b=3 -> 1 -> 0")
+            arduino.write(b"3")
+            time.sleep(1)  # belok kiri
+            arduino.write(b"1")
+            time.sleep(2)  # maju beberapa detik
+            arduino.write(b"0")
+            time.sleep(3)
 
         # Hanya proses satu deteksi per frame
         break
